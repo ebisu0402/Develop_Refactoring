@@ -13,6 +13,7 @@ def check_string(text, repeat_horizontal, repeat_vertical):
           str: 指定された回数で繰り返された文字列。
     """
     # 1. 文字列の長さチェック
+    
     if len(text) < 5 or len(text) > 10:
         raise ValueError("文字列は5文字以上、10文字以下でなければなりません。")
 

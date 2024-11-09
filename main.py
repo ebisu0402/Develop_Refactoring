@@ -19,6 +19,3 @@ def main():
 # 実行
 if __name__ == "__main__":
     main()
-
-# TODO:
-    
